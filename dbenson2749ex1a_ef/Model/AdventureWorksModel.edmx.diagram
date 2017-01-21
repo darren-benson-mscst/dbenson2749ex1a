@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd45341871d84ae99ff6edaaf7ca4ec7" Name="Diagram1">
+        <EntityTypeShape EntityType="AdventureWorksEFModel.BusinessEntity" Width="1.5" PointX="0.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.Employee" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.Person" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.Product" Width="1.5" PointX="11.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.PurchaseOrderDetail" Width="1.5" PointX="9.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.PurchaseOrderHeader" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.ShipMethod" Width="1.5" PointX="5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorksEFModel.Vendor" Width="1.5" PointX="2.875" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__Person__Business__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__Vendor__Business__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__Employee__Busine__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__PurchaseO__Emplo__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__PurchaseO__Produ__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__PurchaseO__Purch__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__PurchaseO__ShipM__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorksEFModel.FK__PurchaseO__Vendo__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
